@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFC0C0C0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="SELAMAT DATANG"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="DI COFFEE SHOP SUNSET"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+    <!-- Relative Layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#22ff">
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:src="@drawable/mochaaa"/>
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:src="@drawable/cappucino"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/imageview3"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:src="@drawable/espreso"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/imageview4"
+            android:layout_width="180dp"
+            android:layout_height="75dp"
+            android:src="@drawable/americanoo"
+            android:layout_below="@+id/imageview1"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/imageview5"
+            android:layout_width="180dp"
+            android:layout_height="75dp"
+            android:src="@drawable/americanoo"
+            android:layout_below="@+id/imageview1"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="LIST MENU"
+            android:textSize="20sp" />
+
+        <TableRow
+            android:background="#FF666699">
+            <TextView
+                android:text="MENU"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:text="HARGA"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#22ff">
+
+            <TextView
+                android:text="Cappucino"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/> />
+
+            <TextView
+                android:text="Rp15.000"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"/>
+        </TableRow >
+
+        <TableRow
+            android:background="#FF666699">
+            <TextView
+                android:text="Americano"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:text="Rp10.000"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"
+                />
+        </TableRow>
+        <TableRow
+            android:background="#22ff">
+
+            <TextView
+                android:text="Latte"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:padding="3dip"/> />
+
+            <TextView
+                android:text="Rp20.000"
+                android:layout_width="180dp"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:padding="3dip"
+                android:gravity="right"
+                android:layout_marginLeft="20dp"/>
+        </TableRow >
+
+    </TableLayout>
+
+    <!-- Frame Layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF666699"
+            android:gravity="center"
+            android:text="PESAN DISINI"
+            android:textSize="20sp"
+            />
+
+        <ImageView
+            android:layout_width="480dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="26dp"
+            android:gravity="center"
+            android:src="@drawable/wallpaper2" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="75dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Inputkan Nomor Meja Anda"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="150dp"
+            android:text="PESAN"
+            />
+
+
+    </FrameLayout>
+
+</LinearLayout>
