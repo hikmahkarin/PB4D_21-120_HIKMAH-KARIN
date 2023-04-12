@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">modul1</string>
+    <string name="bio">
+        NAMA: HIKMAH KARIN \n
+        NIM: 210441100120\n
+        SEMESTER: 4\n
+        PRODI: SISTEM INFORMASI\n
+        FAKULTAS: TEKNIK\n
+        INSTITUSI: Universitas Trunojoyo Madura\n
+        ASAL: BANGKALAN\n
+        MATKUL: PEMROGRAMAN BERGERAK\n
+        KELAS: 4B
+    </string>
+</resources>

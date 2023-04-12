@@ -1,0 +1,1 @@
+Program ini dibuat menggunakan Bahasa kotlin. Untuk membuat program ini, saya menggunakan 2 text view dan 1 image view. Untuk menambahkan file biodata, saya menyisipkan text di file strings.xml. 
