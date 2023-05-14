@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment2">
+
+    <TextView
+        android:id="@+id/id_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Nama"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/id_desc"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="DESC"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/btn_satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="70dp"
+        android:text="Kembali"
+        android:background="@color/purple_500"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"
+        android:text="Pilih menu"
+        android:textSize="10dp"/>
+
+</LinearLayout>
