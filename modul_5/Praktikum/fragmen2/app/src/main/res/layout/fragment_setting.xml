@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingFragment"
+    android:background="@drawable/perpus"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/biru"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_web"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="WEB"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/biru"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_catalog"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="CATALOG"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="90dp"
+        android:background="@color/biru"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_about"/>
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="ABOUT US"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+</FrameLayout>

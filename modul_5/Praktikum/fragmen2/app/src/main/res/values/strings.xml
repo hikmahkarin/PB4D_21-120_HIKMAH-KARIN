@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">fragmen2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1"><b>"Gegara Gaji Kecil, Ini 10 Jurusan Kuliah yang Banyak Disesali Alumni"</b></string>
+    <string name="text2"><b>Tak Banyak Orang Tau, Ternyata ini Manfaat Konsumsi Labu Siam</b></string>
+    <string name="menu_notification">Notifikasi</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_logout">Logout</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:text="PROFIL"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TableRow
+            android:background="#FF666699">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="5dip"
+                android:text="NAMA"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:text="HIKMAH KARIN"
+                android:layout_column="2"
+                android:layout_gravity="left"
+                android:padding="3dip"
+                android:gravity="center"
+                android:layout_marginLeft="0dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#22ff">
+
+            <TextView
+                android:text="NIM"
+                android:textColor="@color/black"
+                android:layout_column="1"
+                android:layout_width="100dp"
+                android:textSize="15sp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:text="210441100120"
+                android:layout_width="100dp"
+                android:layout_column="2"
+                android:layout_gravity="left"
+                android:padding="3dip"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginLeft="5dp" />
+        </TableRow >
+
+        <TableRow
+            android:background="#FF666699">
+
+            <TextView
+                android:text="MATKUL"
+                android:textColor="@color/black"
+                android:layout_column="1"
+                android:layout_width="100dp"
+                android:textSize="15sp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:text="PEMBER"
+                android:layout_width="200dp"
+                android:layout_column="2"
+                android:layout_gravity="left"
+                android:padding="3dip"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginLeft="5dp" />
+        </TableRow >
+        <TableRow
+            android:background="#22ff">
+
+            <TextView
+                android:text="ASAL"
+                android:textColor="@color/black"
+                android:layout_column="1"
+                android:layout_width="100dp"
+                android:textSize="15sp"
+                android:padding="3dip"/>
+
+            <TextView
+                android:text="BANGKALAN"
+                android:layout_width="100dp"
+                android:layout_column="2"
+                android:layout_gravity="left"
+                android:padding="3dip"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginLeft="5dp" />
+        </TableRow >
+
+    </TableLayout>
+
+</FrameLayout>
